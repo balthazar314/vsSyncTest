@@ -6,8 +6,13 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("hello world\njust a test\n");
+	_TCHAR smile = '\65';//'\u1F600';
+
+	_tprintf(_T("hello world\n %c just a test \n"),smile); 
 	getchar();
 	return 0;
 }
+
+
+
 
